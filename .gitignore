@@ -1,0 +1,62 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# Jupyter / notebook stuff
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# Operating system files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs and temp files
+# ===========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ===========================
+# IDE and editor configs
+# ===========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ===========================
+# Results, outputs & figures
+# ===========================
+results/*
+!results/.gitkeep        # keep empty results folder tracked
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# ===========================
+# Data files (if you add any)
+# ===========================
+data/*
+!data/.gitkeep
+
+# ===========================
+# Build / distribution folders
+# ===========================
+build/
+dist/
+*.egg-info/
