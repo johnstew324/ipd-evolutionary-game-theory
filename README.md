@@ -117,8 +117,10 @@ results/
 ├── cooperation_rate_analysis.png
 └── interaction_types_analysis.png
 
-View Notebook for futher analysis
-
+### View Notebook for futher analysis
+```bash
+src/notebooks/ipd_ga_notebook.ipynb
+```
 
 ---
 
